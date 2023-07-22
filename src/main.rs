@@ -5,7 +5,7 @@ use axum::{
 };
 
 async fn hello_world() -> &'static str {
-    "Hello, world 4!"
+    "Hello, world!"
 }
 
 async fn success() -> Json<serde_json::Value> {
